@@ -1,0 +1,21 @@
+<%= form_for :article do |f| %>
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :mail %>
+  </p>
+ 
+  <p>
+    <%= f.label :username %><br>
+    <%= f.text_field :un %>
+  </p>
+
+  <p>
+    <%= f.label :password %><br>
+    <%= f.text_field :pw %>
+  </p>
+
+ 
+  <p>
+    <%= f.submit:signup %>
+  </p>
+<% end %>
